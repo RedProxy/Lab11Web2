@@ -121,18 +121,17 @@ Kode diatas berisi 5 method, yaitu:
 Untuk mengakses REST API CodeIgniter, kita perlu mendefinisikan route-nya terlebih dulu. Caranya, masuklah ke direktori app/Config dan bukalah file Routes.php. Tambahkan kode di bawah ini:
 
 ```php
-
 $routes->resource('post');
-
 ```
+
 ![Routing REST API](img/Routing_API.png)
 
 Untuk mengecek route nya jalankan perintah berikut:
+
 ```php
-
 php spark routes
-
 ```
+
 Selanjutnya akan muncul daftar route yang telah dibuat.
 
 # Testing REST API CodeIgniter
