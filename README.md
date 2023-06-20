@@ -138,35 +138,35 @@ Selanjutnya akan muncul daftar route yang telah dibuat.
 - Buka aplikasi postman dan pilih create new → HTTP Request
 
 ## Menampilkan Semua Data
-Pilih method GET dan masukkan URL berikut:
+<p>Pilih method GET dan masukkan URL berikut:</p>
 http://localhost:8080/post
 <p>Lalu, klik Send. Jika hasil test menampilkan semua data artikel dari database, maka pengujian berhasil.</p>
 
 ![Semua Data](img/Semua_Data.png)
 
 ## Menampilkan Data Spesifik
-Masih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL seperti ini:
+vMasih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL seperti ini:</p>
 http://localhost:8080/post/2
 <p>Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID nomor 2 di database.</p>
 
 ![Menampilkan Data Spesifik](img/Data_Spesifisik.png)
 
 ## Mengubah Data
-Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut:
+<p>Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut:</p>
 http://localhost:8080/post/2
 <p>Selanjutnya, pilih tab Body. Kemudian, pilih x-www-form-uriencoded. Masukkan nama atribut tabel pada kolom KEY dan nilai data yang baru pada kolom VALUE. Kalau sudah, klik Send.</p>
 
 ![Mengubah Data](img/Ubah_Data.png)
 
 ## Menambahkan Data
-Anda perlu menggunakan method POST untuk menambahkan data baru ke database. Kemudian, masukkan URL berikut:
+<p>Anda perlu menggunakan method POST untuk menambahkan data baru ke database. Kemudian, masukkan URL berikut:</p>
 http://localhost:8080/post
 <p>Pilih tab Body, lalu pilih x-www-form-uriencoded. Masukkan atribut tabel pada kolom KEY dan nilai data baru di kolom VALUE. Jangan lupa, klik Send.</p>
 
 ![Menambah Data](img/Tambah_Data.png)
 
 ## Menghapus Data
-Pilih method DELETE untuk menghapus data. Lalu, masukkan URL spesifik data mana yang ingin di hapus. Misalnya, ingin menghapus data nomor 4, maka URL-nya seperti ini:
+<p>Pilih method DELETE untuk menghapus data. Lalu, masukkan URL spesifik data mana yang ingin di hapus. Misalnya, ingin menghapus data nomor 4, maka URL-nya seperti ini:</p>
 http://localhost:8080/post/7
 <p>Langsung saja klik Send, maka akan mendapatkan pesan bahwa data telah berhasil dihapus dari database.</p>
 
